@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahil Raj Verma — Software Engineer</title>
+    <meta
+      name="description"
+      content="Sahil Raj Verma — Final year CSE student at IIITDM Jabalpur. Full Stack Developer, MERN Engineer, and AI Research Enthusiast building scalable production-grade applications."
+    />
+    <meta
+      name="keywords"
+      content="Sahil Raj Verma, Full Stack Developer, MERN Developer, Software Engineer, IIITDM Jabalpur, React, Node.js"
+    />
+    <meta property="og:title" content="Sahil Raj Verma — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Final year CSE student building scalable applications and real-world products."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">SRV</a>
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link" data-section="experience"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="nav-link" data-section="projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle theme"
+          >
+            <i class="ri-sun-line" id="themeIcon"></i>
+          </button>
+          <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-container">
+        <div class="hero-badge fade-in">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-name fade-in delay-1">
+          SAHIL RAJ<br /><span class="name-accent">VERMA</span>
+        </h1>
+        <div class="hero-subtitle fade-in delay-2">
+          <span class="subtitle-prefix">—</span>
+          <span class="rotating-text" id="rotatingText">Software Engineer</span>
+        </div>
+        <p class="hero-desc fade-in delay-3">
+          Final year Computer Science student at IIITDM Jabalpur focused on
+          building scalable applications, solving complex problems and creating
+          real-world products.
+        </p>
+        <div class="hero-cta fade-in delay-4">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a
+            href="https://drive.google.com/file/d/1phzzYADaFQbneEpszSuo9e1cFcPn9f9O/view?usp=drive_link"
+            target="_blank"
+            class="btn btn-outline"
+          >
+            <i class="ri-download-line"></i> Resume
+          </a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+        <div class="hero-socials fade-in delay-5">
+          <a
+            href="https://github.com/SRV30"
+            target="_blank"
+            aria-label="GitHub"
+            class="social-link"
+          >
+            <i class="ri-github-fill"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sahil-raj-verma-b1a13b270"
+            target="_blank"
+            aria-label="LinkedIn"
+            class="social-link"
+          >
+            <i class="ri-linkedin-fill"></i>
+          </a>
+          <a
+            href="https://leetcode.com/srv_30"
+            target="_blank"
+            aria-label="LeetCode"
+            class="social-link"
+          >
+            <i class="ri-code-s-slash-line"></i>
+          </a>
+          <a
+            href="mailto:sahilrv196@gmail.com"
+            aria-label="Email"
+            class="social-link"
+          >
+            <i class="ri-mail-fill"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">01 / About</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am a final-year B.Tech CSE student at IIITDM Jabalpur with
+              experience in full-stack development, freelance projects,
+              competitive programming and AI-based systems. I enjoy building
+              production-grade products that solve real-world problems.
+            </p>
+            <p>
+              With a strong foundation in DSA, system design, and modern web
+              technologies, I bring both the engineering depth and product sense
+              to deliver impactful software.
+            </p>
+            <div class="about-tags">
+              <span class="tag">GATE CS 2026 Qualified</span>
+              <span class="tag">Patent Published</span>
+              <span class="tag">Open Source Contributor</span>
+            </div>
+          </div>
+          <div class="about-stats reveal delay-1">
+            <div class="stat-card">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Production Apps</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">800+</span>
+              <span class="stat-label">DSA Problems Solved</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">35+</span>
+              <span class="stat-label">GitHub Repositories</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">1</span>
+              <span class="stat-label">Patent Published</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">02 / Experience</span>
+          <h2 class="section-title">Timeline</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2022 — 2026</span>
+              <h3>IIITDM Jabalpur</h3>
+              <p>
+                B.Tech Computer Science Engineering — Final Year. Building
+                strong fundamentals in algorithms, systems, and software
+                engineering.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal delay-1">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Nov 2024 — Nov 2025</span>
+              <h3>Freelance Software Engineer</h3>
+              <p>
+                Built and deployed 10+ production-grade applications for real
+                clients using MERN stack technologies. Reduced load times by
+                40%, integrated payment systems, and managed full product
+                lifecycle.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item reveal delay-2">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024</span>
+              <h3>Team Lead — SmartCare Health Project</h3>
+              <p>
+                Led interdisciplinary health monitoring and diagnostics platform
+                development. Project resulted in a published patent at the
+                Indian Patent Office.
+              </p>
+              <span class="timeline-badge">Patent Published</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">03 / Projects</span>
+          <h2 class="section-title">Featured Work</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card project-featured reveal">
+            <div class="project-card-header">
+              <div class="project-icon">
+                <i class="ri-heart-pulse-line"></i>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://drive.google.com/drive/u/0/folders/12DegYEyioMaslIgDk9zQMkI42pwe1fSx"
+                  target="_blank"
+                  class="project-link-btn"
+                  ><i class="ri-external-link-line"></i
+                ></a>
+              </div>
+            </div>
+            <span class="project-badge">Patent Published</span>
+            <h3>SMARTCARE</h3>
+            <p>
+              Smart health monitoring and diagnostics system integrating IoT, AI
+              and real-time analytics for early risk detection and emergency
+              alerts.
+            </p>
+            <div class="project-techs">
+              <span>React</span><span>Node.js</span><span>Firebase</span
+              ><span>IoT</span><span>AI</span>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-1">
+            <div class="project-card-header">
+              <div class="project-icon"><i class="ri-cpu-line"></i></div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/SRV30/material-classification-project"
+                  target="_blank"
+                  class="project-link-btn"
+                  ><i class="ri-github-fill"></i
+                ></a>
+              </div>
+            </div>
+            <h3>AI Material Classification</h3>
+            <p>
+              Machine learning based system for classifying materials and
+              generating intelligent material insights using image data
+              pipelines.
+            </p>
+            <div class="project-techs">
+              <span>Python</span><span>TensorFlow</span><span>OpenCV</span
+              ><span>ML</span>
+            </div>
+          </div>
+
+          <div class="project-card reveal delay-2">
+            <div class="project-card-header">
+              <div class="project-icon"><i class="ri-microscope-line"></i></div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/SRV30/Ear_Disease_Detection"
+                  target="_blank"
+                  class="project-link-btn"
+                  ><i class="ri-github-fill"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Ear Disease Detection</h3>
+            <p>
+              CNN based deep learning system using ResNet18 for medical image
+              classification and ear condition diagnosis.
+            </p>
+            <div class="project-techs">
+              <span>PyTorch</span><span>CNN</span><span>ResNet</span
+              ><span>OpenCV</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="freelance">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">03b / Freelance</span>
+          <h2 class="section-title">Client Work</h2>
+        </div>
+
+        <div class="freelance-grid">
+          <div class="freelance-card reveal">
+            <div class="freelance-info">
+              <h4>City Smile Dental & Implant Center</h4>
+              <p>
+                Full-stack dental clinic website with appointment booking and
+                service showcase.
+              </p>
+              <div class="freelance-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="freelance-actions">
+                <a
+                  href="https://citysmiledentalclinic.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-primary-sm"
+                >
+                  Live <i class="ri-external-link-line"></i>
+                </a>
+                <a
+                  href="https://github.com/SRV30/citysmiledentalclinic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-ghost-sm"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="freelance-card reveal delay-1">
+            <div class="freelance-info">
+              <h4>Nandani Jewellers</h4>
+              <p>
+                E-commerce jewellery platform with product catalog and product
+                showcase.
+              </p>
+              <div class="freelance-tech">
+                <span>React</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="freelance-actions">
+                <a
+                  href="https://nandanijewellers.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-primary-sm"
+                >
+                  Live <i class="ri-external-link-line"></i>
+                </a>
+                <a
+                  href="https://github.com/SRV30/NJ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-ghost-sm"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="freelance-card reveal delay-2">
+            <div class="freelance-info">
+              <h4>Faith and Fast</h4>
+              <p>
+                Religious and lifestyle platform with user profiles and content
+                management.
+              </p>
+              <div class="freelance-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Firebase</span>
+              </div>
+              <div class="freelance-actions">
+                <a
+                  href="https://faithandfast.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-primary-sm"
+                >
+                  Live <i class="ri-external-link-line"></i>
+                </a>
+                <a
+                  href="https://github.com/SRV30/FF"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-ghost-sm"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="freelance-card reveal">
+            <div class="freelance-info">
+              <h4>Samridhi Enterprises</h4>
+              <p>Business website with lead capture forms and service pages.</p>
+              <div class="freelance-tech">
+                <span>React</span>
+                <span>TailwindCSS</span>
+                <span>Node.js</span>
+              </div>
+              <div class="freelance-actions">
+                <a
+                  href="https://samridhienterprises.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-primary-sm"
+                >
+                  Live <i class="ri-external-link-line"></i>
+                </a>
+                <a
+                  href="https://github.com/SRV30/samridhi-enterprises"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-ghost-sm"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="freelance-card reveal delay-1">
+            <div class="freelance-info">
+              <h4>Ayan Tours and Travels</h4>
+              <p>
+                Travel booking platform with packages, itinerary and inquiry
+                features.
+              </p>
+              <div class="freelance-tech">
+                <span>React</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="freelance-actions">
+                <a
+                  href="https://ayantourandtravels.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-primary-sm"
+                >
+                  Live <i class="ri-external-link-line"></i>
+                </a>
+                <a
+                  href="https://github.com/SRV30/Ayan-Tour-Travels"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-ghost-sm"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="freelance-card reveal delay-2">
+            <div class="freelance-info">
+              <h4>SAUBHAGYAM Astro</h4>
+              <p>
+                Astrology services platform with consultation booking and
+                personalized content.
+              </p>
+              <div class="freelance-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Firebase</span>
+              </div>
+              <div class="freelance-actions">
+                <a
+                  href="https://saubhagyamastro.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-primary-sm"
+                >
+                  Live <i class="ri-external-link-line"></i>
+                </a>
+                <a
+                  href="https://github.com/SRV30/Saubhagyam"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-sm btn-ghost-sm"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">04 / Skills</span>
+          <h2 class="section-title">Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title">
+              <i class="ri-layout-line"></i> Frontend
+            </h4>
+            <div class="skill-tags">
+              <span>React</span><span>Redux</span><span>TailwindCSS</span
+              ><span>Framer Motion</span><span>GSAP</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal delay-1">
+            <h4 class="skill-group-title">
+              <i class="ri-server-line"></i> Backend
+            </h4>
+            <div class="skill-tags">
+              <span>Node.js</span><span>Express.js</span><span>MongoDB</span
+              ><span>Firebase</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal delay-2">
+            <h4 class="skill-group-title">
+              <i class="ri-code-line"></i> Languages
+            </h4>
+            <div class="skill-tags">
+              <span>C++</span><span>Java</span><span>JavaScript</span
+              ><span>Python</span><span>SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h4 class="skill-group-title">
+              <i class="ri-brain-line"></i> AI / ML
+            </h4>
+            <div class="skill-tags">
+              <span>Machine Learning</span><span>Deep Learning</span
+              ><span>TensorFlow</span><span>PyTorch</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal delay-1">
+            <h4 class="skill-group-title">
+              <i class="ri-tools-line"></i> Tools
+            </h4>
+            <div class="skill-tags">
+              <span>Git</span><span>Postman</span><span>Vercel</span
+              ><span>Netlify</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal delay-2">
+            <h4 class="skill-group-title">
+              <i class="ri-database-2-line"></i> Core CS
+            </h4>
+            <div class="skill-tags">
+              <span>DSA</span><span>DBMS</span><span>Operating Systems</span
+              ><span>Computer Networks</span><span>OOP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPEN SOURCE -->
+    <section class="section section-alt" id="opensource">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">05 / Open Source</span>
+          <h2 class="section-title">Contributions</h2>
+        </div>
+        <div class="oss-grid">
+          <div class="oss-card reveal">
+            <div class="oss-icon"><i class="ri-open-source-line"></i></div>
+            <h3>GSSoC Contributor</h3>
+            <p>
+              Active participant in GirlScript Summer of Code with merged pull
+              requests across multiple repositories.
+            </p>
+          </div>
+          <div class="oss-card reveal delay-1">
+            <div class="oss-icon"><i class="ri-github-fill"></i></div>
+            <h3>Hacktoberfest Contributor</h3>
+            <p>
+              Successfully completed Hacktoberfest with contributions spanning
+              authentication, APIs and frontend redesigns.
+            </p>
+          </div>
+        </div>
+        <div class="oss-highlights reveal delay-2">
+          <h4>Contribution Areas</h4>
+          <div class="highlight-tags">
+            <span><i class="ri-lock-line"></i> Authentication Systems</span>
+            <span><i class="ri-key-line"></i> OTP Workflows</span>
+            <span><i class="ri-server-line"></i> Backend Architecture</span>
+            <span><i class="ri-plug-line"></i> API Integration</span>
+            <span><i class="ri-palette-line"></i> Frontend Redesign</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">06 / Contact</span>
+          <h2 class="section-title">Let's Talk</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>
+              Available for full-time roles, freelance projects, and open-source
+              collaboration. Let's build something great together.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:sahilrv196@gmail.com" class="contact-item">
+                <i class="ri-mail-line"></i>
+                <span>sahilrv196@gmail.com</span>
+              </a>
+              <a
+                href="https://github.com/SRV30"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="ri-github-fill"></i>
+                <span>github.com/SRV30</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sahil-raj-verma-b1a13b270"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="ri-linkedin-fill"></i>
+                <span>linkedin.com/in/sahil-raj-verma</span>
+              </a>
+              <a
+                href="https://leetcode.com/srv_30"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="ri-code-s-slash-line"></i>
+                <span>leetcode.com/srv_30</span>
+              </a>
+            </div>
+          </div>
+          <form class="contact-form reveal delay-1" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What's this about?"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary btn-full"
+              id="submitBtn"
+            >
+              <span id="btnText">Send Message</span>
+              <i class="ri-send-plane-fill"></i>
+            </button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <span class="footer-logo">SRV</span>
+          <p>Built with precision by Sahil Raj Verma · 2025</p>
+          <div class="footer-socials">
+            <a href="https://github.com/SRV30" target="_blank"
+              ><i class="ri-github-fill"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sahil-raj-verma-b1a13b270"
+              target="_blank"
+              ><i class="ri-linkedin-fill"></i
+            ></a>
+            <a href="mailto:sahilrv196@gmail.com"
+              ><i class="ri-mail-fill"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scroll-progress"></div>
+
+    <button class="scroll-top-btn" id="scrollTopBtn">
+      <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
