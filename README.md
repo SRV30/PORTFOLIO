@@ -2,7 +2,7 @@
 
 # Sahil Raj Verma — Personal Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-ef4444?style=flat-square\&logo=vercel)](https://your-portfolio-url.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-ef4444?style=flat-square\&logo=vercel)](https://sahilrajverma.vercel.app)
 [![Made with](https://img.shields.io/badge/Made%20with-HTML%20%2F%20CSS%20%2F%20JS-ef4444?style=flat-square)](#)
 
 A modern, premium one-page portfolio website built using vanilla HTML, CSS and JavaScript with a clean red-themed design, dark/light mode support and smooth interactions.
@@ -167,15 +167,7 @@ https://github.com/SRV30/Saubhagyam
 
 ```txt
 portfolio/
-│
-├── assets/
-│   ├── favicon.png
-│   ├── smartcare.png
-│   ├── material-ai.png
-│   ├── ear-detection.png
-│   ├── profile.jpg
-│   └── resume.pdf
-│
+├── favicon.svg
 ├── index.html
 ├── style.css
 ├── main.js
@@ -208,30 +200,12 @@ Or use VS Code **Live Server**.
 
 ---
 
-## Deployment
-
-### Vercel
-
-1. Push code to GitHub
-2. Open Vercel
-3. Import repository
-4. Deploy
-
-### Netlify
-
-Drag and drop the portfolio folder.
-
----
-
 ## Contact
 
 **Sahil Raj Verma**
 
 📧 Email
 [sahilrv196@gmail.com](mailto:sahilrv196@gmail.com)
-
-📱 Phone
-+91 9304748651
 
 💻 GitHub
 https://github.com/SRV30
@@ -241,9 +215,6 @@ https://www.linkedin.com/in/sahil-raj-verma-b1a13b270
 
 🧠 LeetCode
 https://leetcode.com/srv_30
-
-💬 WhatsApp
-https://wa.me/919304748651
 
 ---
 
